@@ -1,8 +1,8 @@
 {
-    "name": "slotjs",
+    "name": "circular-slot-machine",
     "version": "1.0.0",
     "description": "🎰 Circular slot machine mobile-first SPA built with JavaScript, CSS variables and Emojis!",
-    "homepage": "https://danziger.github.io/slotjs/",
+    "homepage": "https://abc6xyz.github.io/Circular-Slot-Machine/",
     "license": "MIT",
     "author": {
         "name": "Daniel Gámez Franco",
@@ -11,10 +11,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Danziger/slotjs.git"
+        "url": "git+https://github.com/abc6xyz/Circular-Slot-Machine.git"
     },
     "bugs": {
-        "url": "https://github.com/Danziger/slotjs/issues"
+        "url": "https://github.com/abc6xyz/Circular-Slot-Machine/issues"
     },
     "main": "./src/app/main.js",
     "scripts": {
