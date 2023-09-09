@@ -3,7 +3,7 @@
 <p align="center">
     🎰 Circular slot machine mobile-first SPA built using JavaScript, CSS variables and Emojis!
 </p><p align="center">
-    🚀 Try it out at <a href="https://danziger.github.io/slotjs">danziger.github.io/slotjs</a>!
+    🚀 Try it out at <a href="https://abc6xyz.github.io/slotjs">abc6xyz.github.io/circular-slot-machine</a>!
 </p><p align="center">
     🔊 Better with sound & vibration on.
 </p><p align="center">
@@ -14,7 +14,7 @@
 
 
 <p align="center">
-    <a href="https://danziger.github.io/slotjs" target="_blank">
+    <a href="https://abc6xyz.github.io/slotjs" target="_blank">
         <img src="./static/screenshots/slotjs.png" />
     </a>
 </p>
@@ -118,41 +118,3 @@ Ongoing work
 This is just a weekend project I built a while back, so it won't be updated often. However, there's some ongoing work you can find in the [TODO file](./TODO).
 
 <br />
-
-
-Some other sites I've built
----------------------------
-
-- **[GMZCODES](https://gmzcodes.com/)**
-
-  👨‍💻 Dani Gamez's personal website PWA built using JavaScript, SCSS and HTML5.
-  
-- **[Stylophone.js](https://danziger.github.io/stylophonejs/)**
-
-  🎹 The classic Stylophone, now in your phone and computer.
-
-- **[Key.js](https://keyjs.dev)**
-
-  ⌨ Press any key to get the JavaScript keyboard event event key, code, which, keyCode and more properties!
-
-- **[Job.js](https://danziger.github.io/jobjs/)**
-
-  💼 Sharable image summaries for your open positions: Share your jobs as an image on LinkedIn and Instagram to get a visibility boost and more applicants!
-
-<br />
-
-
-Author
-------
-
-<img
-    src="https://s.gravatar.com/avatar/ff1de7f1a325c8005379a310949f7f23?s=128"
-    alt="Dani Gámez Franco"
-    align="left"
-/>
-
-Dani Gámez Franco
-
-LinkedIn: https://www.linkedin.com/in/danigamezfranco/
-
-Stack Overflow: https://stackoverflow.com/users/3723993/danziger
