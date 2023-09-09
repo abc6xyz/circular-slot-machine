@@ -28,6 +28,7 @@ jobs:
         run: |
           git config --global user.name "abc6xyz"
           git config --global user.email "byte11101100@gmail.com"
+          git pull origin master
           git add .
           git commit -m "Build and deploy app"
           git push origin master
