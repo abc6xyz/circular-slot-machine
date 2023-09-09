@@ -3,7 +3,7 @@
 <p align="center">
     🎰 Circular slot machine mobile-first SPA built using JavaScript, CSS variables and Emojis!
 </p><p align="center">
-    🚀 Try it out at <a href="https://abc6xyz.github.io/slotjs">abc6xyz.github.io/circular-slot-machine</a>!
+    🚀 Try it out at <a href="https://abc6xyz.github.io/circular-slot-machine">abc6xyz.github.io/circular-slot-machine</a>!
 </p><p align="center">
     🔊 Better with sound & vibration on.
 </p><p align="center">
@@ -14,7 +14,7 @@
 
 
 <p align="center">
-    <a href="https://abc6xyz.github.io/slotjs" target="_blank">
+    <a href="https://abc6xyz.github.io/circular-slot-machine" target="_blank">
         <img src="./static/screenshots/slotjs.png" />
     </a>
 </p>
