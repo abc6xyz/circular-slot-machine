@@ -1,34 +1,27 @@
 name: Build and Deploy
-
+permissions:
+  contents: write
 on:
   push:
     branches:
-      - master
-
+      - main
 jobs:
-  build:
+  deploy:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Install and Build 🔧
+          npm ci
+          npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build the React app
-        run: npm run build
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "abc6xyz"
-          git config --global user.email "byte11101100@gmail.com"
-          git pull origin master
-          git add .
-          git commit -m "Build and deploy app"
-          git push origin master
+          folder: dist
+          clean: true
+          clean-exclude: |
+            special-file.txt
+            some/*.txt
