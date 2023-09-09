@@ -2,19 +2,19 @@
     "name": "circular-slot-machine",
     "version": "1.0.0",
     "description": "🎰 Circular slot machine mobile-first SPA built with JavaScript, CSS variables and Emojis!",
-    "homepage": "https://abc6xyz.github.io/Circular-Slot-Machine/",
+    "homepage": "https://abc6xyz.github.io/circular-slot-machine/",
     "license": "MIT",
     "author": {
-        "name": "Daniel Gámez Franco",
-        "email": "gmzcodes@outlook.com",
-        "url": "http://gmzcodes.com"
+        "name": "abc6xyz",
+        "email": "byte11101100@gmail.com",
+        "url": "https://google.com"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/abc6xyz/Circular-Slot-Machine.git"
+        "url": "git+https://github.com/abc6xyz/circular-slot-machine.git"
     },
     "bugs": {
-        "url": "https://github.com/abc6xyz/Circular-Slot-Machine/issues"
+        "url": "https://github.com/abc6xyz/circular-slot-machine/issues"
     },
     "main": "./src/app/main.js",
     "scripts": {
@@ -25,7 +25,8 @@
         "build:dev": "webpack --mode development --progress",
         "build:prod": "webpack --mode production --progress",
         "distclean": "rm -rf dist",
-        "deploy": "npm run distclean && npm run build:prod && gh-pages -d dist",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -b master -d build",
         "eslint": "eslint src",
         "eslint:fix": "eslint --fix src",
         "stylelint": "stylelint src/**/*.scss",
